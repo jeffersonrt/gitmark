@@ -1,4 +1,4 @@
-package com.todoapp;
+package com.gitmark;
 
 import android.app.Application;
 
