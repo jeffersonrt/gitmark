@@ -1,5 +1,5 @@
 {
-  "name": "base",
+  "name": "ToDoApp",
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -7,12 +7,22 @@
     "test": "jest"
   },
   "dependencies": {
+    "axios": "^0.18.0",
+    "color": "^3.1.0",
     "prop-types": "^15.6.2",
     "react": "16.6.3",
     "react-native": "0.57.8",
-    "reactotron-react-native": "^2.1.4"
+    "react-native-gesture-handler": "^1.0.12",
+    "react-navigation": "^3.0.9",
+    "react-redux": "^6.0.0",
+    "reactotron-react-native": "^2.1.4",
+    "reactotron-redux": "^2.1.3",
+    "reactotron-redux-saga": "^2.1.3",
+    "redux": "^4.0.1",
+    "redux-saga": "^0.16.2"
   },
   "devDependencies": {
+    "babel-eslint": "^10.0.1",
     "babel-jest": "23.6.0",
     "babel-plugin-root-import": "^6.1.0",
     "eslint": "^5.12.0",
